@@ -20,7 +20,7 @@ evaluate and display math on jupyter notebook with latex
 
 Don't Use it.
 
-I just came this overnight.
+I just came up with this overnight.
 
 If you really want to use it.
 
