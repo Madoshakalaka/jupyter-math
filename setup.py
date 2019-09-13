@@ -24,6 +24,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 # Fields marked as "Optional" may be commented out.
 
 setup(
+    dependency_links=[],
     # This is the name of your project. The first time you publish this
     # package, this name will be registered for you. It will determine how
     # users can install this project, e.g.:
@@ -42,7 +43,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version="0.0.0",  # Required
+    version="0.0.1",  # Required
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
@@ -105,7 +106,6 @@ setup(
     #
     # Note that this is a string of words separated by whitespace, not a list.
     # keywords="computer vision",  # Optional
-
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
     #
@@ -128,7 +128,53 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=[],  # Optional
+    install_requires=[
+        "attrs==19.1.0",
+        "backcall==0.1.0",
+        "bleach==3.1.0",
+        "colorama==0.4.1; sys_platform == 'win32'",
+        "decorator==4.4.0",
+        "defusedxml==0.6.0",
+        "entrypoints==0.3",
+        "ipykernel==5.1.2",
+        "ipython==7.8.0",
+        "ipython-genutils==0.2.0",
+        "ipywidgets==7.5.1",
+        "jedi==0.15.1",
+        "jinja2==2.10.1",
+        "jsonschema==3.0.2",
+        "jupyter==1.0.0",
+        "jupyter-client==5.3.1",
+        "jupyter-console==6.0.0",
+        "jupyter-core==4.5.0",
+        "markupsafe==1.1.1",
+        "mistune==0.8.4",
+        "mpmath==1.1.0",
+        "nbconvert==5.6.0",
+        "nbformat==4.4.0",
+        "notebook==6.0.1",
+        "pandocfilters==1.4.2",
+        "parso==0.5.1",
+        "pickleshare==0.7.5",
+        "prometheus-client==0.7.1",
+        "prompt-toolkit==2.0.9",
+        "pygments==2.4.2",
+        "pyrsistent==0.15.4",
+        "python-dateutil==2.8.0",
+        "pywinpty==0.5.5; os_name == 'nt'",
+        "pyzmq==18.1.0",
+        "qtconsole==4.5.5",
+        "send2trash==1.5.0",
+        "six==1.12.0",
+        "sympy==1.4",
+        "terminado==0.8.2",
+        "testpath==0.4.2",
+        "tornado==6.0.3",
+        "traitlets==4.3.2",
+        "wcwidth==0.1.7",
+        "webencodings==0.5.1",
+        "widgetsnbextension==3.5.1",
+    ],  # Optional
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
