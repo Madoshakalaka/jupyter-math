@@ -2,7 +2,10 @@
   <dictionary name="Matt">
     <words>
       <w>bigskip</w>
+      <w>gini</w>
       <w>numerics</w>
+      <w>numerify</w>
+      <w>summand</w>
       <w>symbolify</w>
       <w>sympy</w>
     </words>

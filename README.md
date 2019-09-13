@@ -12,15 +12,19 @@
 
 ## What Does It Do
 
-<!--You picture won't show on pypi if you use relative path.-->
-<!--If you want to add any image, please add the image to readme_assets folder and add the filename as below-->
-<!--![some show case picture](https://raw.githubusercontent.com/Madoshakalaka/jupyter-math/master/readme_assets/showcasePicture.png)-->
-display and evaluate math on jupyter notebook
+evaluate and display math on jupyter notebook with latex
 
+![what-does-it-do](https://raw.githubusercontent.com/Madoshakalaka/jupyter-math/master/readme_assets/glorious.png)
 
 ## How to Use
 
-Not working yet
+Don't Use it.
+
+I just came this overnight.
+
+If you really want to use it.
+
+Go to [this notebook file](./tests/interactive_test.ipynb) to see some use cases.
 
 <!--
 
