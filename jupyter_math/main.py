@@ -111,7 +111,7 @@ class Displayable(ABC):
 
 class Binary(Displayable):
     def _try_get_value(self) -> Optional[float]:
-        if self.numeric:
+        if self.numeric is not None:
             return self.numeric
         else:
             l_v = self._l._try_get_value()
