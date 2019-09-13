@@ -70,7 +70,7 @@ class Displayable(ABC):
         return Binary(self, expr, "*")
 
     def _get_displayable_latex(self, symbolify_defs=True, **kwargs):
-        if kwargs.get("numerify_descendents", False) and self.numeric:
+        if kwargs.get("numerify_descendents", False) and self.numeric is not None:
             return str(round(self.numeric, 3))
         if self._power == 1:
             return self.get_default_latex(symbolify_defs, **kwargs)
