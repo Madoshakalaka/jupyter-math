@@ -15,6 +15,9 @@ black = "==19.3b0"
 tox-travis = "==0.12"
 
 [packages]
+jupyter = "~=1.0"
+ipython = "~=7.8"
+sympy = "~=1.4"
 
 [scripts]
 build = 'python setup.py sdist'
