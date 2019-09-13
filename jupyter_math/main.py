@@ -116,7 +116,7 @@ class Binary(Displayable):
         else:
             l_v = self._l._try_get_value()
             r_v = self._r._try_get_value()
-            if l_v and r_v:
+            if l_v is not None and r_v is not None:
                 if self._op == "*":
                     return l_v * r_v
                 elif self._op == "+":
