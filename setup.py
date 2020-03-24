@@ -131,7 +131,7 @@ setup(
     install_requires=[
         "attrs==19.1.0",
         "backcall==0.1.0",
-        "bleach==3.1.0",
+        "bleach==3.1.2",
         "colorama==0.4.1; sys_platform == 'win32'",
         "decorator==4.4.0",
         "defusedxml==0.6.0",
