@@ -158,7 +158,7 @@ setup(
         "pickleshare==0.7.5",
         "prometheus-client==0.7.1",
         "prompt-toolkit==2.0.9",
-        "pygments==2.4.2",
+        "pygments==2.7.4",
         "pyrsistent==0.15.4",
         "python-dateutil==2.8.0",
         "pywinpty==0.5.5; os_name == 'nt'",
