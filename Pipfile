@@ -16,7 +16,7 @@ tox-travis = "==0.12"
 
 [packages]
 jupyter = "~=1.0"
-ipython = "~=7.8"
+ipython = "~=7.16"
 sympy = "~=1.4"
 
 [scripts]
