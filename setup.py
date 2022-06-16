@@ -152,7 +152,7 @@ setup(
         "mpmath==1.1.0",
         "nbconvert==5.6.0",
         "nbformat==4.4.0",
-        "notebook==6.0.1",
+        "notebook==6.4.12",
         "pandocfilters==1.4.2",
         "parso==0.5.1",
         "pickleshare==0.7.5",
