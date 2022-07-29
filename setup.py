@@ -148,7 +148,7 @@ setup(
         "jupyter-console==6.0.0",
         "jupyter-core==4.5.0",
         "markupsafe==1.1.1",
-        "mistune==0.8.4",
+        "mistune==2.0.3",
         "mpmath==1.1.0",
         "nbconvert==5.6.0",
         "nbformat==4.4.0",
