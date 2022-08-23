@@ -150,7 +150,7 @@ setup(
         "markupsafe==1.1.1",
         "mistune==0.8.4",
         "mpmath==1.1.0",
-        "nbconvert==5.6.0",
+        "nbconvert==6.5.1",
         "nbformat==4.4.0",
         "notebook==6.0.1",
         "pandocfilters==1.4.2",
